@@ -1,5 +1,5 @@
 # write your method here
 def crazy_strings (word_one, word_two)
-  puts "#{word_one.reverse.upcase.gusb("s,"z"} #{word_two.swapcase.gusb("s","z")}"
+  puts "#{word_one.reverse.upcase} #{word_two.gsub(/s/, "z").swapcase}"
 end
 crazy_strings("Hello", "Friends")

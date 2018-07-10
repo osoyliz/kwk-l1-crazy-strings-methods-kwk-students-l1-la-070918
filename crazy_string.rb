@@ -1,6 +1,4 @@
 # write your method here
-word_one= "hello".reverse
-word_two= "friends".swapcase
-def crazy_strings ("Hello", "Friends")
-  puts "#{crazy_strings}"
+def crazy_strings (word_one, word_two)
+  puts "#{word_one.reverse.upcase}" "#{word_two.swapcase"
 end
